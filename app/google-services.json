@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282170189165",
+    "firebase_url": "https://appforpostswithfirebase.firebaseio.com",
+    "project_id": "appforpostswithfirebase",
+    "storage_bucket": "appforpostswithfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282170189165:android:b2ee012124dff0a5",
+        "android_client_info": {
+          "package_name": "com.samsung.jetbrains.barracudapff.appforpostswithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282170189165-iuue3c13kbrsqo1rg296o6kuqds81mh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samsung.jetbrains.barracudapff.appforpostswithfirebase",
+            "certificate_hash": "747028cbb9a612bcf2685f83b6d4f5541a02d5fc"
+          }
+        },
+        {
+          "client_id": "282170189165-p2ihk696rpvn2bjo9ph6e1eu3b275s0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3m3HiREm5iLkT8VgiBLXDn39Gz6uXqyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282170189165-p2ihk696rpvn2bjo9ph6e1eu3b275s0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
