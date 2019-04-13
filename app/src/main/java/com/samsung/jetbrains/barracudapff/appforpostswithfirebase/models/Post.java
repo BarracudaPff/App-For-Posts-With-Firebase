@@ -3,13 +3,17 @@ package com.samsung.jetbrains.barracudapff.appforpostswithfirebase.models;
 import java.util.ArrayList;
 
 public class Post {
-    public final String key;
+    public String key;
 
-    public final String name;
-    public final String text;
-    public final String author_id;
-    public final int likes;
-    public final ArrayList<String> user_likes;
+    public String name;
+    public String text;
+    public String author_id;
+    public int likes;
+    public ArrayList<String> user_likes;
+
+    public Post() {
+
+    }
 
     public Post(String key, String name, String text, String author_id, int likes, ArrayList<String> user_likes) {
         this.key = key;
@@ -18,5 +22,17 @@ public class Post {
         this.author_id = author_id;
         this.likes = likes;
         this.user_likes = user_likes;
+    }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "key='" + key + '\'' +
+                ", name='" + name + '\'' +
+                ", text='" + text + '\'' +
+                ", author_id='" + author_id + '\'' +
+                ", likes=" + likes +
+                ", user_likes=" + user_likes +
+                '}';
     }
 }
