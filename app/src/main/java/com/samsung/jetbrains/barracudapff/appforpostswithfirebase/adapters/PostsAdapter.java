@@ -19,15 +19,12 @@ public class PostsAdapter extends FirebaseRecyclerAdapter<Post, PostViewHolder> 
     @Override
     protected void onBindViewHolder(@NonNull PostViewHolder holder, int position, @NonNull Post model) {
         holder.onBind(model);
-        System.out.println("Bind!");
-        System.out.println(model);
     }
 
     //Create ViewHolder
     @NonNull
     @Override
     public PostViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        System.out.println("onCreateViewHolder!");
         return new PostViewHolder(LayoutInflater.from(viewGroup.getContext())
                 .inflate(R.layout.item_post, viewGroup, false));
     }
